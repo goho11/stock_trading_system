@@ -1,142 +1,66 @@
-<h1 align="center"> 맛GPT (맛집 소개 웹 프로젝트) </h1>
+<h1 align="center"> 주식 투자 시뮬레이션 프로그램 </h1>
 
-![메인](https://github.com/user-attachments/assets/57ae2b4c-3dac-46a5-8968-695381157ee7)
+![image](https://github.com/user-attachments/assets/33221cb0-77ec-42af-9bbf-11ad04f85d05)
+
  
 <h2>목적</h2>
-<p align="center">기존 맛집 소개 사이트의 기능을 바탕으로  </p>
-<p align="center">사용자가 인원수에 따라 예산을 조정할 수 있는 기능을 추가하여 최적의 식당을 추천하고, </p>  
-<p align="center">사용자 리뷰 작성 기능을 통해 다양한 의견을 공유하고 맛집에 대한 정보를 보다 풍부하게 제공합니다.  </p>
-<p align="center">최종적으로, 사용자 맞춤형 경험을 극대화하여 맛집 탐색의 편의성을 향상시키는 것을 목표로 합니다. </p>
+<p align="center">주식 경험이 없는 사용자가</p>
+<p align="center">투자 전략 수집 및 리스크 관리를 통해 실제 주식 투자와 유사한 거래 체험</p>  
+<p align="center">주가 변동을 차트로 시각화하여 사용자가 주식 시장의 흐름을 직관적 확인 가능</p>
 
 <p align="center">
   <h2>사용도구</h2>
-
+ 
  <img src="https://img.shields.io/badge/Java-%23FF7800"> <img src="https://img.shields.io/badge/Eclipse-2C2255?logo=eclipseide&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white">   
- <img src="https://img.shields.io/badge/HTML-%23E34F26?logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS-%231572B6?logo=css3&logoColor=white"> 
- <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=white"> <img src="https://img.shields.io/badge/Maven-%23C71A36?logo=apachemaven&logoColor=white">  
 
 ## 프로젝트 배경 
-- 기존 시스템의 한계 및 개선   
-  기존 맛집 검색 서비스는 지역 및 음식 종류별 검색에만 집중되어 있고, 예산을 고려한 추천 기능 부족
-- 독창적인 예산 맞춤 검색 기능   
-사용자는 연령대와 취향에 따라, 데이트나 가족 모임 등 특정 상황에 맞는 맛집을 찾고자 할 때,   
-예산 내에서 최적의 선택을 할 수 있는 기능 필요
+- 가상 투자 환경   
+  실제 주식 시장 데이터 기반으로 사용자가 다양한 투자 전략 실험 가능한 환경 조성   
+  이를 통해 실제 투자 전, 위험 없이 투자 경험을 겪고 자신감 증진 가능
+  
+- 리스크 관리 및 전략 수립   
+주식 거래에 중요한 리스크 관리와 전략 수립 중요성을 실전처럼 체험   
+사용자의 선택에 따라 변동성 높은 시장에서 어떻게 리스크를 줄이고, 효과적인 투자 전략 수립을 학습
 
 ## 주요 핵심 기능
-### 사용자 등록
-- 로그인/회원가입/아이디 찾기/비밀번호 찾기
-<img src="https://github.com/user-attachments/assets/463c2861-6bb6-46a1-9405-ad274c746380" width="49%" height="49%">
-<img src="https://github.com/user-attachments/assets/30d3779c-0647-4b79-b7bd-b265bcb41439" width="49%" height="49%">
-<img src="https://github.com/user-attachments/assets/afd2361a-589e-4b55-b477-d3c5366aa7f0" width="49%" height="49%">
-<img src="https://github.com/user-attachments/assets/6237c17a-3e06-4601-8060-a5bfeb559d3f" width="49%" height="49%">
+### 로그인 후 메인 화면   
+원금, 금액, 수익, 수익률, 회사별 주식 가격   
+![전체 회사 주식 정보 최초 화면](https://github.com/user-attachments/assets/895b484d-0024-4d7d-89af-895cdff356b5)
 
-- 회원 정보 수정
-<img src="https://github.com/user-attachments/assets/e4df65a1-481f-49ef-8b80-b63667d109a0">
+### 내 정보 화면   
+통장 잔고, 원금, 수익, 수익률, 평가 금액, 회사별 보유 주식 상황   
+![내 주식 현황 화면](https://github.com/user-attachments/assets/5c4d254f-de0b-4a46-9dad-bb2f8ce855ec)
 
-- 건의 사항 작성
-<img src="https://github.com/user-attachments/assets/3c7eed6c-d198-4393-999b-772a78908653">
+### 나의 거래 내역 보기 화면   
+내 투자(평가 금액), 잔고, 주식 거래 내역   
+![내 주식 거래 현황 화면](https://github.com/user-attachments/assets/c0164455-506b-433a-8c9c-954d16a3d48c)
 
-### 사업자
-- 가게/메뉴 추가
-<img src="https://github.com/user-attachments/assets/03d10a42-fd51-4b53-ac91-8b4cf377f427" width="49%" height="49%">
-<img src="https://github.com/user-attachments/assets/e0dd8302-1237-44f0-a996-02cf297a0514" width="49%" height="49%">
+### 오늘의 뉴스 화면
+주가 변동에 대한 힌트를 제공      
+![뉴스 화면](https://github.com/user-attachments/assets/6c435d4a-2693-47c4-b14f-20792738367f)
 
-### 검색 기능
-- 키워드 검색
-<img src="https://github.com/user-attachments/assets/20863c2a-9047-44a7-987f-41d5c1ed13d8">
+### 그래프 차트
+날짜(X축)별 주식 가격(Y축) 변동을 확인 가능   
+![graph chart](https://github.com/user-attachments/assets/94d892f3-f79e-446a-b3b0-105c86ccf019)
 
-- 지역 검색
-<img src="https://github.com/user-attachments/assets/abce46c7-1c8b-493a-be90-7258d9cd38a2">
-
-- 예산별 검색
-<img src="https://github.com/user-attachments/assets/b20e15a2-18c9-44f5-bf23-ec4ff9072bbd">
-
-### 관리자
-- 사용자 관리
-<img src="https://github.com/user-attachments/assets/36e7d42f-5e93-40d6-ae27-69b6246f70ca">
-
-- 건의 사항 관리
-<img src="https://github.com/user-attachments/assets/c5bab4ae-d2bd-4cec-9a10-5f8d5e74505f">
+### 매수 화면
+![매수 화면](https://github.com/user-attachments/assets/36b2001f-dbd6-49d6-841f-a5391354b537)
 
 ## 진행과정
-웹페이지 초기 기능 설계 및 유스케이스 다이어그램과 데이터베이스 스키마 작성   
+- 테이블 명세서 구성   
+![image](https://github.com/user-attachments/assets/8a6af56e-f048-4277-bbfe-bef25674a03f)
 
-JSTL, DBCP2, Lombok, MyBatis, JSON 등 다양한 라이브러리 활용   
-MyBatis를 사용하여 SQL 쿼리와 객체 지향 프로그래밍의 통합   
+- 동작방식 및 데이터 흐름 파악   
+　1. 사용자 로그인 : 계정을 통해 개인 투자 상황 관리   
+　2. 검색 및 정보 열람 : 주식 종목 검색과 정보 열람   
+　3. 주식 구매 결정 : 매수 또는 매도 결정을 내릴 수 있는 인터페이스   
+　4. 구매 완료 및 주가 변동 : 거래 완료 후 시뮬레이션된 시장 정보에 따라 주가 변동   
+　5. 시뮬레이션 진행 : 주기적인 시장 상황 업데이트로 최대 90일 진행   
+　6. 시뮬레이션 종료 및 결과 확인 : 투자 성과를 시각적 제공   
 
-- 유스케이스 다이어그램
-![usecase](https://github.com/user-attachments/assets/be8c2ac6-94df-4cf5-b150-f99302c04db0)
--  초기 UI 설계
-![image](https://github.com/user-attachments/assets/f233972e-e05d-4e53-ad99-b01f086a037b)
-- ERD 구성
-![image](https://github.com/user-attachments/assets/65e92979-68e1-433b-944a-6f83f4c8e393)
-
-## 주요 핵심 기능 소개
-Cafeteria
-- 가게 부분의 기능과 DB연결 관리
-- Mapper와 ServiceImpl 클래스를 통해 MySQL과 연결하여 DB와 연동 및 SQL문을 처리하고 가게 정보들을 불러오거나 저장
-
-User	
-- 회원가입과 로그인 등의 유저 관리
-- 기본적으로 DB와 연동하여 처리되며, JSON으로 값을 불러온 뒤 UserValidator를 통해 유효성 검사를 진행하고 모두 통과했을 때 가입 승인
-
-UserController	Filter
-- 클래스를 통해 로그인과 로그아웃 상태를 확인하여 처리
-- session을 확인하여 로그인 상태를 확인하고 특정 페이지의 경우 로그인이 되어있는지 확인하여 안되어있을 경우 로그인 페이지로 이동하도록 구현
-
-Map	
-- 카카오 맵 API를 활용하여 지도 데이터 구현
-- API를 활용하여 DB에 저장된 주소를 불러왔을 때 해당 주소가 가리키는 실제 주소를 보여주고 체커로 해당 가게 이름을 표시
-
-SearchCateServlet	
-- 사용자의 예산과 원하는 태그에 맞는 가게 검색
-- 사용자와 카페의 정보를 초기화하고, 카테고리와 가격 조건에 맞는 카페 리스트를 검색하여 카페에 대한 사진 및 태그 정보를 병합한 뒤 결과 제공
-
-SearchAreaServlet	
-- 지역별로 찾고 싶은 가게 리스트 출력
-- 요청된 지역에 맞는 카페 목록을 검색하고, 해당 카페와 관련된 이미지 정보를 병합하여 JSON 형식으로 응답한 뒤 상태 코드를 설정하여 성공 또는 실패를 사용자에게 전달
-
-CafeDetailServlet
-- 선택한 가게의 세부 정보를 사용자에게 보여줌
-- 특정 카페의 세부 정보를 조회하여, 가게 정보, 메뉴 목록, 리뷰, 평균 평점, 카테고리, 태그 및 이미지를 보여주며, 예외 발생 시 에러 페이지로 포워딩
-
-OwnerPageServlet	
-- 사업주로 등록된 사용자가 가게 정보를 등록하고 DB에 저장
-- 페이지에서 가게 정보를 입력하고 전송. GET 요청으로 카테고리 목록과 소유자 ID를 제공하며,   
-- POST 요청에서는 JSON 데이터를 읽고 가게 정보, 태그, 이미지를 데이터베이스에 저장
-
-AdminServlet	
-- 관리자가 가입된 사용자들의 정보와 사업자등록증 등 확인 및 제재 가능
-- DB에서 사용자 리스트를 조회하여 가져오며, 사업주의 경우 사업자등록증 확인 가능
-- 아이디별로 활성화/비활성화 가능
-
-## Repository 구조
-```sh
-EnjoyFood_Project/
-├─ src/main/
-│  ├─ java/
-│  │  ├─ cafeteria/
-│  │  ├─ config/
-│  │  ├─ enjoyfood/
-│  │  ├─ main/controller/
-│  │  ├─ user/
-│  │  │  ├─ controller
-│  │  │  ├─ model
-│  │  │  ├─ suggestion
-│  ├─ webapp/
-│  │  ├─ META-INF/
-│  │  ├─ WEB-INF/
-│  │  │  ├─ module/
-│  │  │  ├─ view/
-│  │  ├─ popup/
-│  │  ├─ static/
-│  │  │  ├─ css/
-│  │  │  ├─ ico/
-│  │  │  ├─ js/
-├─ .gitignore
-├─ pom.xml
-├─ .README.md
-```
+- RDBMS를 사용한 데이터 관리 및 연결      
+  Java 프로그램과 DB를 연결해 데이터를 주고 받기 위한 JDBC 방식 사용   
+  DB연결 객체 생성, PreparedStatement 인터페이스를 통해 SQL 쿼리를 실행하여 데이터를 주고 받음
 
 ## Authors
 GitHub [@goho11](https://github.com/goho11)
